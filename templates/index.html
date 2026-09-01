@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ShopIQ — AI Shopping Assistant</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+
+  <body>
+    <div class="app">
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-icon">✦</div>
+
+          <div>
+            <h1>ShopIQ</h1>
+            <span>AI Shopping Assistant</span>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <p class="section-title">I CAN HELP WITH</p>
+
+          <div class="capability">
+            <span>⌕</span>
+            <div>
+              <strong>Product Search</strong>
+              <small>Find products and details</small>
+            </div>
+          </div>
+
+          <div class="capability">
+            <span>◆</span>
+            <div>
+              <strong>Recommendations</strong>
+              <small>Discover the right product</small>
+            </div>
+          </div>
+
+          <div class="capability">
+            <span>✓</span>
+            <div>
+              <strong>Order Support</strong>
+              <small>Tracking and delivery FAQs</small>
+            </div>
+          </div>
+
+          <div class="capability">
+            <span>◉</span>
+            <div>
+              <strong>Review Insights</strong>
+              <small>Understand customer opinions</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-bottom">
+          <div class="ai-status">
+            <span class="status-dot"></span>
+
+            <div>
+              <strong>AI Online</strong>
+              <small>Powered by Ollama</small>
+            </div>
+          </div>
+
+          <p class="version">ShopIQ • E-Commerce AI</p>
+        </div>
+      </aside>
+
+      <!-- MAIN CHAT -->
+      <main class="chat-area">
+        <!-- HEADER -->
+        <header class="topbar">
+          <div class="mobile-brand">
+            <div class="brand-icon">✦</div>
+            <strong>ShopIQ</strong>
+          </div>
+
+          <div class="header-info">
+            <h2>Shopping Assistant</h2>
+            <p>Ask me anything about our products</p>
+          </div>
+
+          <div class="online-badge">
+            <span></span>
+            Online
+          </div>
+        </header>
+
+        <!-- CHAT BOX -->
+        <section id="chat-box" class="chat-box">
+          <!-- WELCOME -->
+          <div class="welcome-card">
+            <div class="welcome-icon">✦</div>
+
+            <h2>How can I help you today?</h2>
+
+            <p>
+              I'm your AI shopping assistant. Ask me about products,
+              recommendations, orders or customer reviews.
+            </p>
+
+            <div class="quick-actions">
+              <button onclick="useSuggestion('Where is my parcel?')">
+                <span>📦</span>
+                Track my order
+              </button>
+
+              <button onclick="useSuggestion('Recommend a gaming laptop')">
+                <span>💻</span>
+                Find a laptop
+              </button>
+
+              <button onclick="useSuggestion('Tell me about Lenovo Laptop 3')">
+                <span>🔎</span>
+                Product details
+              </button>
+
+              <button
+                onclick="
+                  useSuggestion(
+                    'What do customers think about Lenovo Laptop 3?',
+                  )
+                "
+              >
+                <span>⭐</span>
+                Read reviews
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- TYPING INDICATOR -->
+        <div id="typing" class="typing hidden">
+          <div class="typing-avatar">✦</div>
+
+          <div class="typing-content">
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <small>ShopIQ is thinking...</small>
+          </div>
+        </div>
+
+        <!-- INPUT AREA -->
+        <div class="input-wrapper">
+          <div class="input-box">
+            <textarea
+              id="user-input"
+              rows="1"
+              placeholder="Ask ShopIQ anything..."
+              autocomplete="off"
+            ></textarea>
+
+            <button
+              id="send-button"
+              class="send-button"
+              aria-label="Send message"
+            >
+              ➤
+            </button>
+          </div>
+
+          <p class="input-hint">
+            ShopIQ can answer product, order, recommendation and review
+            questions.
+          </p>
+        </div>
+      </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

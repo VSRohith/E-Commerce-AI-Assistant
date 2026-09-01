@@ -1,4 +1,4 @@
-<img width="832" height="817" alt="image" src="https://github.com/user-attachments/assets/3ae7c6b4-345d-490f-b0ae-d5a043b967e8" /># 🛍️ E-Commerce AI Assistant
+ 🛍️ E-Commerce AI Assistant
 
 An AI-powered e-commerce chatbot built using **Python, Flask, Machine Learning, Sentence Transformers, and Ollama (Qwen 2.5)**.
 

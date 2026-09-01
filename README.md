@@ -49,21 +49,16 @@ ECommerceGPT/
 └── requirements.txt
 ```
 ## 📸 screenshots
-
-### 🏠 ShopIQ Interface
-![ShopIQ Interface](screenshots/Screenshot%202026-09-01%20215327.png)
+## Chatbot
+![Chatbot](screenshots/Screenshot%202026-09-01%20214736.png)
 
 ### 🎯 Intent Detection
-![Intent Detection](screenshots/Screenshot%202026-09-01%20215036.png)
+![Intent Detection](screenshots/Screenshot%202026-09-01%20215327.png)
+
+### ⭐ Customer Reviews
+![⭐ Customer Reviews](screenshots/Screenshot%202026-09-01%20215036.png)
 
 ### 💻 Product Recommendation
 ![Product Recommendation](screenshots/Screenshot%202026-09-01%20214816.png)
 
-### ⭐ Customer Reviews
-![Customer Reviews](screenshots/Screenshot%202026-09-01%20214736.png)
 
-### 🛍️ Product Information
-![Product Information](screenshots/Screenshot%202026-09-01%20214638.png)
-
-### 💬 Chatbot Interaction
-![Chatbot Interaction](screenshots/Screenshot%202026-09-01%20214544.png)

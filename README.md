@@ -51,19 +51,19 @@ ECommerceGPT/
 ## 📸 screenshots
 
 ### 🏠 ShopIQ Interface
-![ShopIQ Interface](Screenshot%202026-09-01%20215327.png)
+![ShopIQ Interface](screenshots/Screenshot%202026-09-01%20215327.png)
 
 ### 🎯 Intent Detection
-![Intent Detection](Screenshot%202026-09-01%20215036.png)
+![Intent Detection](screenshots/Screenshot%202026-09-01%20215036.png)
 
 ### 💻 Product Recommendation
-![Product Recommendation](Screenshot%202026-09-01%20214816.png)
+![Product Recommendation](screenshots/Screenshot%202026-09-01%20214816.png)
 
 ### ⭐ Customer Reviews
-![Customer Reviews](Screenshot%202026-09-01%20214736.png)
+![Customer Reviews](screenshots/Screenshot%202026-09-01%20214736.png)
 
 ### 🛍️ Product Information
-![Product Information](Screenshot%202026-09-01%20214638.png)
+![Product Information](screenshots/Screenshot%202026-09-01%20214638.png)
 
 ### 💬 Chatbot Interaction
-![Chatbot Interaction](Screenshot%202026-09-01%20214544.png)
+![Chatbot Interaction](screenshots/Screenshot%202026-09-01%20214544.png)
